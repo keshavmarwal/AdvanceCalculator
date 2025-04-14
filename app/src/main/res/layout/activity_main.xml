@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040404"
+    tools:context=".MainActivity">
+
+    <!-- Fixed CardView -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        style="@style/CardBottomRounded"
+        app:cardBackgroundColor="#090909"
+        android:elevation="10dp"
+        android:layout_gravity="top">
+
+        <TextView
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aclonica"
+            android:text="Calculate Everything"
+            android:textColor="#7B6DB0"
+            android:textSize="30sp" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Scrollable ListView -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="195dp"
+     />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

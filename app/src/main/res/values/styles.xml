@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="CardBottomRounded" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeBottomRounded</item>
+    </style>
+
+    <style name="ShapeBottomRounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomLeft">36dp</item>
+        <item name="cornerSizeBottomRight">36dp</item>
+    </style>
+
+
+    <style name="SpinerTextSize" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+</resources>

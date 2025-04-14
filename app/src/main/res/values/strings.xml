@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AdvanceCalculator</string>
+
+    <string-array name="tax_options">
+        <item>Exclusive</item>
+        <item>Inclusive</item>
+    </string-array>
+    <string-array name="interest_options">
+        <item>Annually</item>
+        <item>Monthly</item>
+        <item>Weekly</item>
+        <item>Quarterly</item>
+        <item>Daily</item>
+    </string-array>
+    <string-array name="units_options">
+        <item>Meter</item>
+        <item>Feet</item>
+        <item>Inch</item>
+        <item>Centimeter</item>
+        <item>Kilometer</item>
+        <item>Mile</item>
+        <item>Yard</item>
+
+    </string-array>
+</resources>
